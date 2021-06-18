@@ -5,7 +5,7 @@ All users need to do is join a room
 Still in Development in order to add Database functionality and user authentication
 
 # Heroku Link
-<link>
+https://toluolawumi-chatbox.herokuapp.com/
 
 # What Users can do:
 - Join a room
