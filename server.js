@@ -10,7 +10,8 @@ const admin = "Admin"
 //set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-const port = 4000 || process.env.PORT;
+require('dotenv').config();
+const port = process.env.PORT || 4000;
 
 const server = app.listen(port, () => {
     console.log(`server running on port ${port}`)
