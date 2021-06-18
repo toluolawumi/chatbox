@@ -1,0 +1,16 @@
+{
+  "name": "chatbox",
+  "version": "1.0.0",
+  "description": "Tolu's chat box",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tolu Olawumi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.2"
+  }
+}
